@@ -21,10 +21,10 @@ def colorWipe(strip, color):
         strip.setPixelColor(i, color)
     strip.show()    
 
-# filename='US_flag_h.jpg'
+filename='US_flag_h.jpg'
 # filename = 'izery.jpg'
 # filename = 'park_solacki.jpg'
-filename = 'Star_Wars_Logo.jpg'
+# filename = 'Star_Wars_Logo.jpg'
 
 img = Image.open(filename).convert('RGB')
 origWidth, origHeight = img.size
